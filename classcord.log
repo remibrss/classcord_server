@@ -1,0 +1,95 @@
+2025-06-19 11:35:55,529 - === Démarrage du serveur Classcord ===
+2025-06-19 14:51:19,746 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 59396)
+2025-06-19 14:51:19,755 - [RECU] ('10.0.108.80', 59396) >> {"password":"123","type":"register","username":"MOHA"}
+2025-06-19 14:51:33,643 - [RECU] ('10.0.108.80', 59396) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 14:51:34,403 - [RECU] ('10.0.108.80', 59396) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 14:51:50,154 - [DECONNEXION] ('10.0.108.80', 59396) déconnecté
+2025-06-19 14:54:21,891 - === Démarrage du serveur Classcord ===
+2025-06-19 14:54:21,909 - [INIT] Utilisateurs chargés: ['MOHA']
+2025-06-19 14:54:22,294 - === Démarrage du serveur Classcord ===
+2025-06-19 14:54:22,294 - [INIT] Utilisateurs chargés: ['MOHA']
+2025-06-19 14:54:22,673 - === Démarrage du serveur Classcord ===
+2025-06-19 14:54:22,673 - [INIT] Utilisateurs chargés: ['MOHA']
+2025-06-19 14:54:23,128 - === Démarrage du serveur Classcord ===
+2025-06-19 14:54:23,128 - [INIT] Utilisateurs chargés: ['MOHA']
+2025-06-19 14:54:23,415 - === Démarrage du serveur Classcord ===
+2025-06-19 14:54:23,421 - [INIT] Utilisateurs chargés: ['MOHA']
+2025-06-19 15:13:02,722 - === Démarrage du serveur Classcord ===
+2025-06-19 15:13:02,745 - [INIT] Utilisateurs chargés: ['MOHA']
+2025-06-19 15:13:02,746 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-19 15:20:16,289 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 59899)
+2025-06-19 15:20:16,293 - [RECU] ('10.0.108.80', 59899) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-19 15:20:16,293 - [LOGIN-ECHEC] Tentative échouée pour TEST depuis 10.0.108.80
+2025-06-19 15:20:24,131 - [RECU] ('10.0.108.80', 59899) >> {"password":"1234","type":"register","username":"TEST"}
+2025-06-19 15:20:24,131 - [SAVE] Utilisateurs sauvegardés.
+2025-06-19 15:20:25,163 - [RECU] ('10.0.108.80', 59899) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-19 15:20:25,163 - [LOGIN] TEST connecté
+2025-06-19 15:20:25,183 - [RECU] ('10.0.108.80', 59899) >> {"type":"users"}
+2025-06-19 15:20:25,238 - [RECU] ('10.0.108.80', 59899) >> {"type":"users"}
+2025-06-19 15:20:29,420 - [RECU] ('10.0.108.80', 59899) >> {"subtype":"global","from":"TEST","type":"message","content":"EFZDED"}
+2025-06-19 15:20:29,421 - [MSG] TEST >> EFZDED
+2025-06-19 15:21:31,442 - [DECONNEXION] ('10.0.108.80', 59899) déconnecté
+2025-06-19 15:22:30,922 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 59994)
+2025-06-19 15:22:30,922 - [RECU] ('10.0.108.80', 59994) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 15:22:30,923 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 15:22:31,517 - [RECU] ('10.0.108.80', 59994) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 15:22:31,517 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 15:22:36,530 - [RECU] ('10.0.108.80', 59994) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 15:22:36,530 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 15:22:36,788 - [RECU] ('10.0.108.80', 59994) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 15:22:36,788 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 15:22:36,952 - [RECU] ('10.0.108.80', 59994) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 15:22:36,953 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 15:22:46,209 - [RECU] ('10.0.108.80', 59994) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 15:22:46,210 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 15:26:35,419 - [RECU] ('10.0.108.80', 59994) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-19 15:26:35,420 - [LOGIN] TEST connecté
+2025-06-19 15:26:35,446 - [RECU] ('10.0.108.80', 59994) >> {"type":"users"}
+2025-06-19 15:26:52,391 - [DECONNEXION] ('10.0.108.80', 59994) déconnecté
+2025-06-19 16:02:17,974 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 60580)
+2025-06-19 16:02:17,981 - [RECU] ('10.0.108.80', 60580) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:02:17,982 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:02:19,253 - [RECU] ('10.0.108.80', 60580) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:02:19,253 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:02:20,164 - [RECU] ('10.0.108.80', 60580) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:02:20,165 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:02:20,475 - [RECU] ('10.0.108.80', 60580) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:02:20,476 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:02:26,449 - [RECU] ('10.0.108.80', 60580) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:02:26,450 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:02:30,862 - [RECU] ('10.0.108.80', 60580) >> {"password":"ABCD","type":"login","username":"MOHA"}
+2025-06-19 16:02:30,862 - [LOGIN] MOHA connecté
+2025-06-19 16:02:30,910 - [RECU] ('10.0.108.80', 60580) >> {"type":"users"}
+2025-06-19 16:02:42,132 - [DECONNEXION] ('10.0.108.80', 60580) déconnecté
+2025-06-19 16:41:51,558 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 61131)
+2025-06-19 16:41:51,564 - [RECU] ('10.0.108.80', 61131) >> {"password":"1234","type":"register","username":"TEST"}
+2025-06-19 16:41:57,526 - [RECU] ('10.0.108.80', 61131) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-19 16:41:57,527 - [LOGIN] TEST connecté
+2025-06-19 16:41:57,553 - [RECU] ('10.0.108.80', 61131) >> {"type":"users"}
+2025-06-19 16:42:48,015 - [DECONNEXION] ('10.0.108.80', 61131) déconnecté
+2025-06-19 16:49:02,117 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 61265)
+2025-06-19 16:49:02,126 - [RECU] ('10.0.108.80', 61265) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:49:02,127 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:49:03,064 - [RECU] ('10.0.108.80', 61265) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:49:03,064 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:49:03,931 - [RECU] ('10.0.108.80', 61265) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:49:03,931 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:49:04,774 - [RECU] ('10.0.108.80', 61265) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:49:04,774 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 16:49:05,636 - [RECU] ('10.0.108.80', 61265) >> {"password":"123","type":"login","username":"MOHA"}
+2025-06-19 16:49:05,637 - [LOGIN-ECHEC] Tentative échouée pour MOHA depuis 10.0.108.80
+2025-06-19 17:02:23,040 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.80', 61533)
+2025-06-19 17:02:23,045 - [RECU] ('10.0.108.80', 61533) >> {"password":"F","type":"login","username":"TEST"}
+2025-06-19 17:02:23,046 - [LOGIN-ECHEC] Tentative échouée pour TEST depuis 10.0.108.80
+2025-06-19 17:02:25,089 - [RECU] ('10.0.108.80', 61533) >> {"password":"F","type":"login","username":"TEST"}
+2025-06-19 17:02:25,090 - [LOGIN-ECHEC] Tentative échouée pour TEST depuis 10.0.108.80
+2025-06-19 17:02:25,640 - [RECU] ('10.0.108.80', 61533) >> {"password":"F","type":"login","username":"TEST"}
+2025-06-19 17:02:25,641 - [LOGIN-ECHEC] Tentative échouée pour TEST depuis 10.0.108.80
+2025-06-19 17:02:26,141 - [RECU] ('10.0.108.80', 61533) >> {"password":"F","type":"login","username":"TEST"}
+2025-06-19 17:02:26,142 - [LOGIN-ECHEC] Tentative échouée pour TEST depuis 10.0.108.80
+2025-06-19 17:02:26,581 - [RECU] ('10.0.108.80', 61533) >> {"password":"F","type":"login","username":"TEST"}
+2025-06-19 17:02:26,582 - [LOGIN-ECHEC] Tentative échouée pour TEST depuis 10.0.108.80
+2025-06-19 17:09:00,601 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.89', 61015)
+2025-06-19 17:09:02,532 - [RECU] ('10.0.108.89', 61015) >> {"subtype":"global","from":"kevin","to":"global","type":"message","content":"cpsdjskjs"}
+2025-06-19 17:09:02,532 - [INFO] Connexion invitée détectée : kevin
+2025-06-19 17:09:02,532 - [MSG] kevin >> cpsdjskjs
