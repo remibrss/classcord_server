@@ -93,3 +93,164 @@
 2025-06-19 17:09:02,532 - [RECU] ('10.0.108.89', 61015) >> {"subtype":"global","from":"kevin","to":"global","type":"message","content":"cpsdjskjs"}
 2025-06-19 17:09:02,532 - [INFO] Connexion invitée détectée : kevin
 2025-06-19 17:09:02,532 - [MSG] kevin >> cpsdjskjs
+2025-06-19 17:53:03,156 - [DECONNEXION] ('10.0.108.89', 61015) déconnecté
+2025-06-20 09:14:23,643 - === Démarrage du serveur Classcord ===
+2025-06-20 09:14:23,659 - [INIT] Utilisateurs chargés: ['MOHA', 'TEST']
+2025-06-20 09:14:23,659 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 09:59:26,065 - === Démarrage du serveur Classcord ===
+2025-06-20 09:59:26,112 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 10:24:56,873 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 56735)
+2025-06-20 10:24:56,910 - [RECU] ('10.0.108.141', 56735) >> {"password":"1234","type":"register","username":"Yanis"}
+2025-06-20 10:25:03,517 - [RECU] ('10.0.108.141', 56735) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 10:25:03,518 - [LOGIN] Yanis connecté
+2025-06-20 10:25:03,621 - [RECU] ('10.0.108.141', 56735) >> {"type":"users"}
+2025-06-20 10:25:28,706 - [RECU] ('10.0.108.141', 56735) >> {"subtype":"global","from":"Yanis","type":"message","content":"/join"}
+2025-06-20 10:25:28,707 - [ERREUR] Problème avec ('10.0.108.141', 56735) (Yanis): list index out of range
+2025-06-20 10:25:28,707 - [DECONNEXION] ('10.0.108.141', 56735) déconnecté
+2025-06-20 10:37:58,202 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 57265)
+2025-06-20 10:37:58,288 - [RECU] ('10.0.108.141', 57265) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 10:37:58,291 - [LOGIN] Yanis connecté
+2025-06-20 10:37:58,391 - [RECU] ('10.0.108.141', 57265) >> {"type":"users"}
+2025-06-20 10:38:02,180 - [RECU] ('10.0.108.141', 57265) >> {"subtype":"global","from":"Yanis","type":"message","content":"quoi"}
+2025-06-20 10:38:02,187 - [MSG] Yanis (#général) >> quoi
+2025-06-20 10:38:03,615 - [RECU] ('10.0.108.141', 57265) >> {"subtype":"global","from":"Yanis","type":"message","content":"ta me"}
+2025-06-20 10:38:03,624 - [MSG] Yanis (#général) >> ta me
+2025-06-20 10:38:04,637 - [RECU] ('10.0.108.141', 57265) >> {"subtype":"global","from":"Yanis","type":"message","content":"e"}
+2025-06-20 10:38:04,643 - [MSG] Yanis (#général) >> e
+2025-06-20 10:38:16,929 - [RECU] ('10.0.108.141', 57265) >> {"subtype":"global","from":"Yanis","type":"message","content":"/join#general"}
+2025-06-20 10:38:16,930 - [ERREUR] Problème avec ('10.0.108.141', 57265) (Yanis): list index out of range
+2025-06-20 10:38:16,931 - [DECONNEXION] ('10.0.108.141', 57265) déconnecté
+2025-06-20 10:38:48,075 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 57303)
+2025-06-20 10:38:48,168 - [RECU] ('10.0.108.141', 57303) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 10:38:48,169 - [LOGIN] Yanis connecté
+2025-06-20 10:38:48,263 - [RECU] ('10.0.108.141', 57303) >> {"type":"users"}
+2025-06-20 10:38:54,202 - [RECU] ('10.0.108.141', 57303) >> {"subtype":"global","from":"Yanis","type":"message","content":"/join #general"}
+2025-06-20 10:38:54,203 - [CHAN] Yanis a rejoint #general
+2025-06-20 10:39:00,762 - [RECU] ('10.0.108.141', 57303) >> {"subtype":"global","from":"Yanis","type":"message","content":"oe"}
+2025-06-20 10:39:00,772 - [MSG] Yanis (#general) >> oe
+2025-06-20 10:39:31,481 - [ERREUR] Problème avec ('10.0.108.141', 57303) (Yanis): [Errno 104] Connection reset by peer
+2025-06-20 10:39:31,481 - [DECONNEXION] ('10.0.108.141', 57303) déconnecté
+2025-06-20 10:48:35,048 - === Démarrage du serveur Classcord ===
+2025-06-20 10:48:35,067 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 10:51:01,205 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 60299)
+2025-06-20 10:51:03,247 - [RECU] ('10.0.108.52', 60299) >> {"subtype":"global","from":"invité","to":"global","type":"message","content":"ddddd"}
+2025-06-20 10:51:03,255 - [MSG] invité (#général) >> ddddd
+2025-06-20 10:51:06,118 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.120', 63241)
+2025-06-20 10:51:09,902 - [RECU] ('10.0.108.120', 63241) >> {"password":"ppp","type":"register","username":"ppp"}
+2025-06-20 10:51:09,927 - [RECU] ('10.0.108.120', 63241) >> {"password":"ppp","type":"login","username":"ppp"}
+2025-06-20 10:51:09,928 - [ENVOI] invité sur #général : {'type': 'status', 'user': 'ppp', 'state': 'online'}
+2025-06-20 10:51:09,928 - [LOGIN] ppp connecté
+2025-06-20 10:51:10,006 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:11,955 - [RECU] ('10.0.108.52', 60299) >> {"subtype":"global","from":"invité","to":"global","type":"message","content":"ssss"}
+2025-06-20 10:51:11,964 - [MSG] invité (#général) >> ssss
+2025-06-20 10:51:11,965 - [ENVOI] ppp sur #général : {'subtype': 'global', 'from': 'invité', 'to': 'global', 'type': 'message', 'content': 'ssss', 'channel': '#général', 'timestamp': '2025-06-20T10:51:11.956978'}
+2025-06-20 10:51:15,018 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:15,121 - [RECU] ('10.0.108.120', 63241) >> {"subtype":"global","from":"ppp","to":"global","type":"message","content":"va te daire enculer"}
+2025-06-20 10:51:15,131 - [MSG] ppp (#général) >> va te daire enculer
+2025-06-20 10:51:15,132 - [ENVOI] invité sur #général : {'subtype': 'global', 'from': 'ppp', 'to': 'global', 'type': 'message', 'content': 'va te daire enculer', 'channel': '#général', 'timestamp': '2025-06-20T10:51:15.121797'}
+2025-06-20 10:51:20,037 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:25,055 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:30,074 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:35,091 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:40,110 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:45,026 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:50,041 - [RECU] ('10.0.108.120', 63241) >> {"type":"users"}
+2025-06-20 10:51:50,969 - [ERREUR] Problème avec ('10.0.108.120', 63241) (ppp): [Errno 104] Connection reset by peer
+2025-06-20 10:51:50,970 - [ENVOI] invité sur #général : {'type': 'status', 'user': 'ppp', 'state': 'offline'}
+2025-06-20 10:51:50,971 - [DECONNEXION] ('10.0.108.120', 63241) déconnecté
+2025-06-20 10:51:51,171 - [RECU] ('10.0.108.52', 60299) >> {"subtype":"global","from":"invité","to":"global","type":"message","content":"/join #admin"}
+2025-06-20 10:51:51,172 - [CHAN] invité a rejoint #admin
+2025-06-20 10:52:51,026 - [RECU] ('10.0.108.52', 60299) >> {"subtype":"global","from":"invité","to":"global","type":"message","content":"eeeee"}
+2025-06-20 10:52:51,034 - [MSG] invité (#admin) >> eeeee
+2025-06-20 10:52:59,275 - [ERREUR] Problème avec ('10.0.108.52', 60299) (invité): [Errno 104] Connection reset by peer
+2025-06-20 10:52:59,275 - [DECONNEXION] ('10.0.108.52', 60299) déconnecté
+2025-06-20 11:16:10,968 - === Démarrage du serveur Classcord ===
+2025-06-20 11:16:11,300 - === Démarrage du serveur Classcord ===
+2025-06-20 11:16:11,820 - === Démarrage du serveur Classcord ===
+2025-06-20 11:16:12,228 - === Démarrage du serveur Classcord ===
+2025-06-20 11:16:12,650 - === Démarrage du serveur Classcord ===
+2025-06-20 11:49:18,996 - === Démarrage du serveur Classcord ===
+2025-06-20 11:49:19,011 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 11:50:33,663 - === Démarrage du serveur Classcord ===
+2025-06-20 11:50:33,663 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 11:52:04,414 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.117', 55918)
+2025-06-20 11:52:04,422 - [RECU] ('10.0.108.117', 55918) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-20 11:52:04,425 - [LOGIN-ECHEC] TEST depuis 10.0.108.117
+2025-06-20 11:52:05,226 - [RECU] ('10.0.108.117', 55918) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-20 11:52:05,230 - [LOGIN-ECHEC] TEST depuis 10.0.108.117
+2025-06-20 11:52:15,979 - [RECU] ('10.0.108.117', 55918) >> {"password":"1234","type":"register","username":"TEST"}
+2025-06-20 11:52:19,766 - [RECU] ('10.0.108.117', 55918) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-20 11:52:19,767 - [LOGIN] TEST connecté
+2025-06-20 11:52:19,869 - [RECU] ('10.0.108.117', 55918) >> {"type":"users"}
+2025-06-20 11:52:19,919 - [RECU] ('10.0.108.117', 55918) >> {"type":"users"}
+2025-06-20 11:52:25,139 - [RECU] ('10.0.108.117', 55918) >> {"subtype":"global","from":"TEST","type":"message","content":"EDFVRBEQF"}
+2025-06-20 11:52:25,146 - [MSG] TEST (#général) >> EDFVRBEQF
+2025-06-20 11:52:41,297 - [ERREUR] Problème avec ('10.0.108.117', 55918) (TEST): [Errno 104] Connection reset by peer
+2025-06-20 11:52:41,298 - [DECONNEXION] ('10.0.108.117', 55918) déconnecté
+2025-06-20 12:03:34,076 - === Démarrage du serveur Classcord ===
+2025-06-20 12:03:34,101 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 12:20:22,655 - === Démarrage du serveur Classcord ===
+2025-06-20 12:20:22,662 - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 12:25:46,343 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 61634)
+2025-06-20 12:25:46,353 - [RECU] ('10.0.108.141', 61634) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 12:25:46,356 - [LOGIN-ECHEC] Yanis depuis 10.0.108.141
+2025-06-20 12:25:56,657 - [RECU] ('10.0.108.141', 61634) >> {"password":"1234","type":"register","username":"Yanis"}
+2025-06-20 12:26:00,252 - [RECU] ('10.0.108.141', 61634) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 12:26:00,256 - [SYSTEM] Message envoyé à ('10.0.108.141', 61634): Bienvenue Yanis sur ClassCord !
+2025-06-20 12:26:00,256 - [LOGIN] Yanis connecté
+2025-06-20 12:26:00,924 - [RECU] ('10.0.108.141', 61634) >> {"type":"users"}
+2025-06-20 12:26:00,925 - [RECU] ('10.0.108.141', 61634) >> {"type":"users"}
+2025-06-20 12:26:02,328 - [ERREUR] Problème avec ('10.0.108.141', 61634) (Yanis): [Errno 104] Connection reset by peer
+2025-06-20 12:26:02,328 - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
+2025-06-20 12:26:02,328 - [DECONNEXION] ('10.0.108.141', 61634) déconnecté
+2025-06-20 12:26:08,592 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 61651)
+2025-06-20 12:26:08,605 - [RECU] ('10.0.108.141', 61651) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 12:26:08,607 - [SYSTEM] Message envoyé à ('10.0.108.141', 61651): Bienvenue Yanis sur ClassCord !
+2025-06-20 12:26:08,607 - [LOGIN] Yanis connecté
+2025-06-20 12:26:08,891 - [RECU] ('10.0.108.141', 61651) >> {"type":"users"}
+2025-06-20 12:26:13,128 - [RECU] ('10.0.108.141', 61651) >> {"subtype":"global","from":"Yanis","type":"message","content":"jsuis la pd$"}
+2025-06-20 12:26:13,137 - [MSG] Yanis (#général) >> jsuis la pd$
+2025-06-20 12:26:41,590 - [ERREUR] Problème avec ('10.0.108.141', 61651) (Yanis): [Errno 104] Connection reset by peer
+2025-06-20 12:26:41,590 - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
+2025-06-20 12:26:41,590 - [DECONNEXION] ('10.0.108.141', 61651) déconnecté
+2025-06-20 12:29:26,770 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 62160)
+2025-06-20 12:29:35,295 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:29:35,355 - [RECU] ('10.0.108.52', 62160) >> {"subtype":"global","from":"zeee","to":"global","type":"message","content":"zzzz","timestamp":"2025-06-20 12:29:35"}
+2025-06-20 12:29:35,362 - [MSG] zeee (#général) >> zzzz
+2025-06-20 12:29:40,312 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:29:45,317 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:29:50,339 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:29:55,319 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:29:56,345 - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 62187)
+2025-06-20 12:30:00,490 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:02,238 - [RECU] ('10.0.108.52', 62187) >> {"password":"dddd","type":"register","username":"ggggg"}
+2025-06-20 12:30:02,306 - [RECU] ('10.0.108.52', 62187) >> {"password":"dddd","type":"login","username":"ggggg"}
+2025-06-20 12:30:02,307 - [SYSTEM] Message envoyé à ('10.0.108.52', 62187): Bienvenue ggggg sur ClassCord !
+2025-06-20 12:30:02,307 - [ENVOI] zeee sur #général : {'type': 'status', 'user': 'ggggg', 'state': 'online'}
+2025-06-20 12:30:02,307 - [LOGIN] ggggg connecté
+2025-06-20 12:30:02,317 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:04,834 - [RECU] ('10.0.108.52', 62187) >> {"subtype":"global","from":"ggggg","to":"global","type":"message","content":"zzzzz","timestamp":"2025-06-20 12:30:04"}
+2025-06-20 12:30:04,844 - [MSG] ggggg (#général) >> zzzzz
+2025-06-20 12:30:04,844 - [ENVOI] zeee sur #général : {'subtype': 'global', 'from': 'ggggg', 'to': 'global', 'type': 'message', 'content': 'zzzzz', 'timestamp': '2025-06-20T12:30:04.834794', 'channel': '#général'}
+2025-06-20 12:30:05,511 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:07,766 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:09,610 - [RECU] ('10.0.108.52', 62160) >> {"subtype":"global","from":"zeee","to":"global","type":"message","content":"cccc","timestamp":"2025-06-20 12:30:09"}
+2025-06-20 12:30:09,625 - [MSG] zeee (#général) >> cccc
+2025-06-20 12:30:09,625 - [ENVOI] ggggg sur #général : {'subtype': 'global', 'from': 'zeee', 'to': 'global', 'type': 'message', 'content': 'cccc', 'timestamp': '2025-06-20T12:30:09.611164', 'channel': '#général'}
+2025-06-20 12:30:10,667 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:12,375 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:15,484 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:17,392 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:20,465 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:22,414 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:25,379 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:27,633 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:30,399 - [RECU] ('10.0.108.52', 62160) >> {"type":"users"}
+2025-06-20 12:30:32,442 - [RECU] ('10.0.108.52', 62187) >> {"type":"users"}
+2025-06-20 12:30:34,195 - [ERREUR] Problème avec ('10.0.108.52', 62187) (ggggg): [Errno 104] Connection reset by peer
+2025-06-20 12:30:34,195 - [ENVOI] zeee sur #général : {'type': 'status', 'user': 'ggggg', 'state': 'offline'}
+2025-06-20 12:30:34,195 - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
+2025-06-20 12:30:34,195 - [DECONNEXION] ('10.0.108.52', 62187) déconnecté
+2025-06-20 12:30:35,521 - [ERREUR] Problème avec ('10.0.108.52', 62160) (zeee): [Errno 104] Connection reset by peer
+2025-06-20 12:30:35,521 - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
+2025-06-20 12:30:35,521 - [DECONNEXION] ('10.0.108.52', 62160) déconnecté
