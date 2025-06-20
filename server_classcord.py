@@ -11,17 +11,36 @@ PORT = 12345
 CLIENTS = {}  # socket: {"username": ..., "channel": ...}
 DEFAULT_CHANNEL = "#général"
 AVAILABLE_CHANNELS = {"#général", "#admin", "#dev"}
+DISABLED_CHANNELS = set()
 LOCK = threading.Lock()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_FILE = os.path.join(BASE_DIR, 'database', 'classcord.db')
 
-
+# Logger principal (classcord.log)
 logging.basicConfig(
-    filename='classcord.log',
+    filename=os.path.join(BASE_DIR, 'classcord.log'),
     level=logging.INFO,
-    format='%(asctime)s - %(message)s'
+    format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logging.info("=== Démarrage du serveur Classcord ===")
+
+# Logger audit dédié (audit.log)
+audit_logger = logging.getLogger('audit')
+audit_logger.setLevel(logging.DEBUG)
+audit_handler = logging.FileHandler(os.path.join(BASE_DIR, 'audit.log'))
+audit_handler.setLevel(logging.DEBUG)
+audit_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+audit_handler.setFormatter(audit_formatter)
+audit_logger.addHandler(audit_handler)
+
+def log_received_message(address, username, message_type, content):
+    audit_logger.info(f"Reçu de '{username}' @ {address} - Type: {message_type} - Contenu: {content}")
+
+def log_error(address, username, error):
+    audit_logger.error(f"Erreur avec '{username}' @ {address} - {error}")
+
+def log_system_event(event):
+    audit_logger.info(f"[SYSTEM EVENT] {event}")
 
 def init_db():
     with sqlite3.connect(DB_FILE) as conn:
@@ -60,8 +79,11 @@ def register_user(username, password, ip):
             c.execute("INSERT INTO users (username, ip) VALUES (?, ?)", (username, ip))
             c.execute("INSERT INTO credentials (username, password) VALUES (?, ?)", (username, password))
             conn.commit()
+        logging.info(f"[REGISTER] Utilisateur '{username}' enregistré depuis {ip}")
+        log_system_event(f"Nouvel utilisateur enregistré: {username} @ {ip}")
         return True
     except sqlite3.IntegrityError:
+        logging.warning(f"[REGISTER-ECHEC] Tentative d'inscription avec username existant: '{username}' @ {ip}")
         return False
 
 def validate_login(username, password):
@@ -69,7 +91,9 @@ def validate_login(username, password):
         c = conn.cursor()
         c.execute("SELECT password FROM credentials WHERE username = ?", (username,))
         row = c.fetchone()
-        return row and row[0] == password
+        valid = row and row[0] == password
+        logging.info(f"[LOGIN-VALIDATION] Tentative login '{username}': {'réussie' if valid else 'échouée'}")
+        return valid
 
 def save_message(sender, receiver, channel, content):
     with sqlite3.connect(DB_FILE) as conn:
@@ -90,8 +114,10 @@ def send_system_message(to_socket, content):
     try:
         to_socket.sendall((json.dumps(message) + '\n').encode())
         logging.info(f"[SYSTEM] Message envoyé à {to_socket.getpeername()}: {content}")
+        log_system_event(f"Message système envoyé à {to_socket.getpeername()}: {content}")
     except Exception as e:
         logging.warning(f"[ERREUR SYSTEM] Impossible d'envoyer un message système : {e}")
+        log_error(to_socket.getpeername(), 'SYSTEM', e)
 
 def broadcast_to_channel(message, sender_socket=None):
     sender_info = CLIENTS.get(sender_socket, {})
@@ -104,12 +130,14 @@ def broadcast_to_channel(message, sender_socket=None):
                 logging.info(f"[ENVOI] {info['username']} sur {channel} : {message}")
             except Exception as e:
                 logging.warning(f"[ERREUR] Envoi échoué à {info['username']} : {e}")
+                log_error(client_socket.getpeername(), info['username'], e)
 
 def handle_client(client_socket):
     buffer = ''
     username = None
     address = client_socket.getpeername()
     logging.info(f"[CONNEXION] Nouvelle connexion depuis {address}")
+    log_system_event(f"Connexion client depuis {address}")
     try:
         while True:
             data = client_socket.recv(1024).decode()
@@ -120,6 +148,7 @@ def handle_client(client_socket):
                 line, buffer = buffer.split('\n', 1)
                 logging.info(f"[RECU] {address} >> {line}")
                 msg = json.loads(line)
+                log_received_message(address, username or 'invité', msg.get('type'), msg.get('content'))
 
                 if msg['type'] == 'register':
                     with LOCK:
@@ -138,22 +167,22 @@ def handle_client(client_socket):
                             response = {'type': 'login', 'status': 'ok'}
                             client_socket.sendall((json.dumps(response) + '\n').encode())
 
-                            # Message système de bienvenue pour ce client uniquement
                             send_system_message(client_socket, f"Bienvenue {username} sur ClassCord !")
 
                             broadcast_to_channel({'type': 'status', 'user': username, 'state': 'online'}, client_socket)
                             logging.info(f"[LOGIN] {username} connecté")
+                            log_system_event(f"Utilisateur connecté : {username} @ {address}")
                         else:
                             response = {'type': 'error', 'message': 'Login failed.'}
                             client_socket.sendall((json.dumps(response) + '\n').encode())
                             logging.warning(f"[LOGIN-ECHEC] {msg['username']} depuis {address[0]}")
+                            log_system_event(f"Échec de login pour {msg['username']} @ {address}")
 
                 elif msg['type'] == 'message':
                     if not username:
                         username = msg.get('from', 'invité')
                         CLIENTS[client_socket] = {"username": username, "channel": DEFAULT_CHANNEL}
 
-                    # Commande de changement de canal
                     if msg['content'].startswith('/join'):
                         parts = msg['content'].split()
                         if len(parts) < 2:
@@ -175,6 +204,7 @@ def handle_client(client_socket):
                         }
                         broadcast_to_channel(response)
                         logging.info(f"[CHAN] {username} a rejoint {new_channel}")
+                        log_system_event(f"{username} a rejoint le canal {new_channel}")
                     else:
                         channel = CLIENTS[client_socket]['channel']
                         msg['from'] = username
@@ -188,15 +218,16 @@ def handle_client(client_socket):
                 elif msg['type'] == 'status' and username:
                     broadcast_to_channel({'type': 'status', 'user': username, 'state': msg['state']}, client_socket)
                     logging.info(f"[STATUS] {username} est maintenant {msg['state']}")
+                    log_system_event(f"Statut changé : {username} est {msg['state']}")
 
     except Exception as e:
         logging.warning(f'[ERREUR] Problème avec {address} ({username}): {e}')
+        log_error(address, username, e)
     finally:
         if username:
             broadcast_to_channel({'type': 'status', 'user': username, 'state': 'offline'}, client_socket)
-
-            # Message système de déconnexion pour ce client uniquement
             send_system_message(client_socket, f"{username} s'est déconnecté.")
+            log_system_event(f"Utilisateur déconnecté : {username} @ {address}")
 
         with LOCK:
             CLIENTS.pop(client_socket, None)
@@ -209,10 +240,22 @@ def main():
     server_socket.bind((HOST, PORT))
     server_socket.listen()
     logging.info(f"[DEMARRAGE] Serveur en écoute sur {HOST}:{PORT}")
+    log_system_event(f"Serveur démarré sur {HOST}:{PORT}")
     while True:
         client_socket, addr = server_socket.accept()
         threading.Thread(target=handle_client, args=(client_socket,), daemon=True).start()
 
+def get_clients():
+    return CLIENTS
+
+def get_lock():
+    return LOCK
+
+def get_disabled_channels():
+    return DISABLED_CHANNELS
+
+def get_available_channels():
+    return AVAILABLE_CHANNELS
+
 if __name__ == '__main__':
     main()
-

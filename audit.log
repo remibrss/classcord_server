@@ -1,0 +1,10 @@
+2025-06-20 12:47:50,990 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 12:54:21,517 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.117', 56462)
+2025-06-20 12:54:21,523 - INFO - Reçu de 'invité' @ ('10.0.108.117', 56462) - Type: login - Contenu: None
+2025-06-20 12:54:21,527 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.117', 56462): Bienvenue TEST sur ClassCord !
+2025-06-20 12:54:21,527 - INFO - [SYSTEM EVENT] Utilisateur connecté : TEST @ ('10.0.108.117', 56462)
+2025-06-20 12:54:21,665 - INFO - Reçu de 'TEST' @ ('10.0.108.117', 56462) - Type: users - Contenu: None
+2025-06-20 12:54:31,862 - INFO - Reçu de 'TEST' @ ('10.0.108.117', 56462) - Type: message - Contenu: CXVGF
+2025-06-20 14:14:35,603 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 15:00:10,052 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 15:23:01,982 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345

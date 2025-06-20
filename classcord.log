@@ -254,3 +254,32 @@
 2025-06-20 12:30:35,521 - [ERREUR] Problème avec ('10.0.108.52', 62160) (zeee): [Errno 104] Connection reset by peer
 2025-06-20 12:30:35,521 - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
 2025-06-20 12:30:35,521 - [DECONNEXION] ('10.0.108.52', 62160) déconnecté
+2025-06-20 12:47:50,942 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 12:47:50,990 - INFO - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 12:47:50,990 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 12:54:21,517 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.117', 56462)
+2025-06-20 12:54:21,517 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.117', 56462)
+2025-06-20 12:54:21,523 - INFO - [RECU] ('10.0.108.117', 56462) >> {"password":"1234","type":"login","username":"TEST"}
+2025-06-20 12:54:21,523 - INFO - Reçu de 'invité' @ ('10.0.108.117', 56462) - Type: login - Contenu: None
+2025-06-20 12:54:21,526 - INFO - [LOGIN-VALIDATION] Tentative login 'TEST': réussie
+2025-06-20 12:54:21,527 - INFO - [SYSTEM] Message envoyé à ('10.0.108.117', 56462): Bienvenue TEST sur ClassCord !
+2025-06-20 12:54:21,527 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.117', 56462): Bienvenue TEST sur ClassCord !
+2025-06-20 12:54:21,527 - INFO - [LOGIN] TEST connecté
+2025-06-20 12:54:21,527 - INFO - [SYSTEM EVENT] Utilisateur connecté : TEST @ ('10.0.108.117', 56462)
+2025-06-20 12:54:21,664 - INFO - [RECU] ('10.0.108.117', 56462) >> {"type":"users"}
+2025-06-20 12:54:21,665 - INFO - Reçu de 'TEST' @ ('10.0.108.117', 56462) - Type: users - Contenu: None
+2025-06-20 12:54:31,862 - INFO - [RECU] ('10.0.108.117', 56462) >> {"subtype":"global","from":"TEST","type":"message","content":"CXVGF"}
+2025-06-20 12:54:31,862 - INFO - Reçu de 'TEST' @ ('10.0.108.117', 56462) - Type: message - Contenu: CXVGF
+2025-06-20 12:54:31,872 - INFO - [MSG] TEST (#général) >> CXVGF
+2025-06-20 14:14:35,587 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 14:14:35,603 - INFO - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 14:14:35,603 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 15:00:10,033 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:00:10,051 - INFO - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 15:00:10,052 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 15:23:01,950 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:23:01,982 - INFO - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 15:23:01,982 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 15:25:58,734 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:30:55,914 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:31:29,449 - INFO - === Démarrage du serveur Classcord ===
