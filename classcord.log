@@ -283,3 +283,409 @@
 2025-06-20 15:25:58,734 - INFO - === Démarrage du serveur Classcord ===
 2025-06-20 15:30:55,914 - INFO - === Démarrage du serveur Classcord ===
 2025-06-20 15:31:29,449 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:39:01,870 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.73', 61357)
+2025-06-20 15:39:01,870 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.73', 61357)
+2025-06-20 15:39:01,963 - INFO - [RECU] ('10.0.108.73', 61357) >> {"password":"azerty","type":"login","username":"Rudy"}
+2025-06-20 15:39:01,963 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61357) - Type: login - Contenu: None
+2025-06-20 15:39:01,964 - INFO - [LOGIN-VALIDATION] Tentative login 'Rudy': échouée
+2025-06-20 15:39:01,964 - WARNING - [LOGIN-ECHEC] Rudy depuis 10.0.108.73
+2025-06-20 15:39:01,964 - INFO - [SYSTEM EVENT] Échec de login pour Rudy @ ('10.0.108.73', 61357)
+2025-06-20 15:39:07,698 - INFO - [RECU] ('10.0.108.73', 61357) >> {"password":"azerty","type":"register","username":"Rudy"}
+2025-06-20 15:39:07,698 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61357) - Type: register - Contenu: None
+2025-06-20 15:39:07,705 - INFO - [REGISTER] Utilisateur 'Rudy' enregistré depuis 10.0.108.73
+2025-06-20 15:39:07,705 - INFO - [SYSTEM EVENT] Nouvel utilisateur enregistré: Rudy @ 10.0.108.73
+2025-06-20 15:39:09,545 - INFO - [RECU] ('10.0.108.73', 61357) >> {"password":"azerty","type":"login","username":"Rudy"}
+2025-06-20 15:39:09,546 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61357) - Type: login - Contenu: None
+2025-06-20 15:39:09,546 - INFO - [LOGIN-VALIDATION] Tentative login 'Rudy': réussie
+2025-06-20 15:39:09,550 - INFO - [SYSTEM] Message envoyé à ('10.0.108.73', 61357): Bienvenue Rudy sur ClassCord !
+2025-06-20 15:39:09,550 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.73', 61357): Bienvenue Rudy sur ClassCord !
+2025-06-20 15:39:09,550 - INFO - [LOGIN] Rudy connecté
+2025-06-20 15:39:09,550 - INFO - [SYSTEM EVENT] Utilisateur connecté : Rudy @ ('10.0.108.73', 61357)
+2025-06-20 15:39:09,748 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:09,749 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:09,953 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:09,953 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:12,206 - INFO - [RECU] ('10.0.108.73', 61357) >> {"subtype":"global","from":"Rudy","type":"message","content":"bite"}
+2025-06-20 15:39:12,206 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: message - Contenu: bite
+2025-06-20 15:39:12,212 - INFO - [MSG] Rudy (#général) >> bite
+2025-06-20 15:39:12,718 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:12,718 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:12,977 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:12,977 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:15,790 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:15,790 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:16,097 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:16,097 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:18,758 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:18,758 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:19,066 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:19,066 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:21,830 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:21,830 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:21,933 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:21,933 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:24,800 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:24,801 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:25,107 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:25,107 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:27,771 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:27,771 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:27,978 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:27,978 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:30,844 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:30,844 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:31,049 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:31,050 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:33,814 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:33,814 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:33,864 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:33,864 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:36,782 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:36,782 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:37,088 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:37,088 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:39,856 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:39,856 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:39,909 - INFO - [RECU] ('10.0.108.73', 61357) >> {"type":"users"}
+2025-06-20 15:39:39,909 - INFO - Reçu de 'Rudy' @ ('10.0.108.73', 61357) - Type: users - Contenu: None
+2025-06-20 15:39:42,824 - WARNING - [ERREUR] Problème avec ('10.0.108.73', 61357) (Rudy): [Errno 104] Connection reset by peer
+2025-06-20 15:39:42,824 - ERROR - Erreur avec 'Rudy' @ ('10.0.108.73', 61357) - [Errno 104] Connection reset by peer
+2025-06-20 15:39:42,824 - WARNING - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
+2025-06-20 15:39:52,924 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.73', 61470)
+2025-06-20 15:39:52,924 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.73', 61470)
+2025-06-20 15:39:52,961 - INFO - [RECU] ('10.0.108.73', 61470) >> {"password":"azerty","type":"login","username":"Rudy"}
+2025-06-20 15:39:52,961 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61470) - Type: login - Contenu: None
+2025-06-20 15:39:52,962 - INFO - [LOGIN-VALIDATION] Tentative login 'Rudy': réussie
+2025-06-20 15:39:52,962 - INFO - [SYSTEM] Message envoyé à ('10.0.108.73', 61470): Bienvenue Rudy sur ClassCord !
+2025-06-20 15:39:52,962 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.73', 61470): Bienvenue Rudy sur ClassCord !
+2025-06-20 15:39:52,962 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:39:52,962 - WARNING - [ERREUR] Problème avec ('10.0.108.73', 61470) (Rudy): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:39:52,962 - ERROR - Erreur avec 'Rudy' @ ('10.0.108.73', 61470) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:39:52,962 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:40:24,592 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:41:22,057 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.73', 61642)
+2025-06-20 15:41:22,058 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.73', 61642)
+2025-06-20 15:41:22,058 - INFO - [RECU] ('10.0.108.73', 61642) >> {"password":"azerty","type":"login","username":"Rudy"}
+2025-06-20 15:41:22,058 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61642) - Type: login - Contenu: None
+2025-06-20 15:41:22,058 - INFO - [LOGIN-VALIDATION] Tentative login 'Rudy': réussie
+2025-06-20 15:41:22,059 - INFO - [SYSTEM] Message envoyé à ('10.0.108.73', 61642): Bienvenue Rudy sur ClassCord !
+2025-06-20 15:41:22,059 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.73', 61642): Bienvenue Rudy sur ClassCord !
+2025-06-20 15:41:22,059 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:41:22,059 - WARNING - [ERREUR] Problème avec ('10.0.108.73', 61642) (Rudy): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:41:22,059 - ERROR - Erreur avec 'Rudy' @ ('10.0.108.73', 61642) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:41:22,060 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:42:15,005 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 52212)
+2025-06-20 15:42:15,005 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 52212)
+2025-06-20 15:42:15,102 - INFO - [RECU] ('10.0.108.141', 52212) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 15:42:15,102 - INFO - Reçu de 'invité' @ ('10.0.108.141', 52212) - Type: login - Contenu: None
+2025-06-20 15:42:15,102 - INFO - [LOGIN-VALIDATION] Tentative login 'Yanis': réussie
+2025-06-20 15:42:15,103 - INFO - [SYSTEM] Message envoyé à ('10.0.108.141', 52212): Bienvenue Yanis sur ClassCord !
+2025-06-20 15:42:15,103 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.141', 52212): Bienvenue Yanis sur ClassCord !
+2025-06-20 15:42:15,103 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:42:15,103 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 52212) (Yanis): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:42:15,103 - ERROR - Erreur avec 'Yanis' @ ('10.0.108.141', 52212) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:42:15,103 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:42:37,845 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 52232)
+2025-06-20 15:42:37,845 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 52232)
+2025-06-20 15:42:37,938 - INFO - [RECU] ('10.0.108.141', 52232) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 15:42:37,938 - INFO - Reçu de 'invité' @ ('10.0.108.141', 52232) - Type: login - Contenu: None
+2025-06-20 15:42:37,938 - INFO - [LOGIN-VALIDATION] Tentative login 'Yanis': réussie
+2025-06-20 15:42:37,938 - INFO - [SYSTEM] Message envoyé à ('10.0.108.141', 52232): Bienvenue Yanis sur ClassCord !
+2025-06-20 15:42:37,939 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.141', 52232): Bienvenue Yanis sur ClassCord !
+2025-06-20 15:42:37,939 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:42:37,939 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 52232) (Yanis): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:42:37,939 - ERROR - Erreur avec 'Yanis' @ ('10.0.108.141', 52232) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:42:37,939 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:43:04,877 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 52256)
+2025-06-20 15:43:04,877 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 52256)
+2025-06-20 15:43:05,075 - INFO - [RECU] ('10.0.108.141', 52256) >> {"type":"users"}
+2025-06-20 15:43:05,075 - INFO - Reçu de 'invité' @ ('10.0.108.141', 52256) - Type: users - Contenu: None
+2025-06-20 15:43:15,010 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.73', 61810)
+2025-06-20 15:43:15,011 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.73', 61810)
+2025-06-20 15:43:15,011 - INFO - [RECU] ('10.0.108.73', 61810) >> {"password":"guest123","type":"register","username":"Invité_Rudy_1750426994565"}
+2025-06-20 15:43:15,011 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61810) - Type: register - Contenu: None
+2025-06-20 15:43:15,023 - INFO - [REGISTER] Utilisateur 'Invité_Rudy_1750426994565' enregistré depuis 10.0.108.73
+2025-06-20 15:43:15,023 - INFO - [SYSTEM EVENT] Nouvel utilisateur enregistré: Invité_Rudy_1750426994565 @ 10.0.108.73
+2025-06-20 15:43:15,214 - INFO - [RECU] ('10.0.108.73', 61810) >> {"password":"guest123","type":"login","username":"Invité_Rudy_1750426994565"}
+2025-06-20 15:43:15,214 - INFO - Reçu de 'invité' @ ('10.0.108.73', 61810) - Type: login - Contenu: None
+2025-06-20 15:43:15,215 - INFO - [LOGIN-VALIDATION] Tentative login 'Invité_Rudy_1750426994565': réussie
+2025-06-20 15:43:15,216 - INFO - [SYSTEM] Message envoyé à ('10.0.108.73', 61810): Bienvenue Invité_Rudy_1750426994565 sur ClassCord !
+2025-06-20 15:43:15,217 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.73', 61810): Bienvenue Invité_Rudy_1750426994565 sur ClassCord !
+2025-06-20 15:43:15,217 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:43:15,217 - WARNING - [ERREUR] Problème avec ('10.0.108.73', 61810) (Invité_Rudy_1750426994565): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:43:15,218 - ERROR - Erreur avec 'Invité_Rudy_1750426994565' @ ('10.0.108.73', 61810) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:43:15,219 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:43:45,218 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 52256) (None): [Errno 104] Connection reset by peer
+2025-06-20 15:43:45,218 - ERROR - Erreur avec 'None' @ ('10.0.108.141', 52256) - [Errno 104] Connection reset by peer
+2025-06-20 15:43:45,218 - INFO - [DECONNEXION] ('10.0.108.141', 52256) déconnecté
+2025-06-20 15:52:04,529 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 65036)
+2025-06-20 15:52:04,531 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.52', 65036)
+2025-06-20 15:52:15,809 - INFO - [RECU] ('10.0.108.52', 65036) >> {"type":"users"}
+2025-06-20 15:52:15,810 - INFO - Reçu de 'invité' @ ('10.0.108.52', 65036) - Type: users - Contenu: None
+2025-06-20 15:52:19,807 - INFO - [RECU] ('10.0.108.52', 65036) >> {"subtype":"global","from":"toto","to":"global","type":"message","content":"RRRR","timestamp":"2025-06-20 15:52:19"}
+2025-06-20 15:52:19,807 - INFO - Reçu de 'invité' @ ('10.0.108.52', 65036) - Type: message - Contenu: RRRR
+2025-06-20 15:52:19,829 - INFO - [MSG] toto (#général) >> RRRR
+2025-06-20 15:52:19,829 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:52:19,829 - WARNING - [ERREUR] Problème avec ('10.0.108.52', 65036) (toto): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:52:19,829 - ERROR - Erreur avec 'toto' @ ('10.0.108.52', 65036) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:52:19,829 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:53:21,897 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 65044)
+2025-06-20 15:53:21,898 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.52', 65044)
+2025-06-20 15:53:26,090 - INFO - [RECU] ('10.0.108.52', 65044) >> {"subtype":"global","from":"zzzzz","to":"global","type":"message","content":"ddd","timestamp":"2025-06-20 15:53:26"}
+2025-06-20 15:53:26,092 - INFO - Reçu de 'invité' @ ('10.0.108.52', 65044) - Type: message - Contenu: ddd
+2025-06-20 15:53:26,107 - INFO - [MSG] zzzzz (#général) >> ddd
+2025-06-20 15:53:26,107 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:53:26,107 - WARNING - [ERREUR] Problème avec ('10.0.108.52', 65044) (zzzzz): [Errno 107] Transport endpoint is not connected
+2025-06-20 15:53:26,107 - ERROR - Erreur avec 'zzzzz' @ ('10.0.108.52', 65044) - [Errno 107] Transport endpoint is not connected
+2025-06-20 15:53:26,107 - WARNING - [ERREUR] Envoi échoué à Rudy : [Errno 32] Broken pipe
+2025-06-20 15:54:27,456 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:54:27,495 - INFO - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 15:54:27,496 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 15:57:32,186 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 52955)
+2025-06-20 15:57:32,187 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 52955)
+2025-06-20 15:57:32,281 - INFO - [RECU] ('10.0.108.141', 52955) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 15:57:32,282 - INFO - Reçu de 'invité' @ ('10.0.108.141', 52955) - Type: login - Contenu: None
+2025-06-20 15:57:32,285 - INFO - [LOGIN-VALIDATION] Tentative login 'Yanis': réussie
+2025-06-20 15:57:32,287 - INFO - [SYSTEM] Message envoyé à ('10.0.108.141', 52955): Bienvenue Yanis sur ClassCord !
+2025-06-20 15:57:32,287 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.141', 52955): Bienvenue Yanis sur ClassCord !
+2025-06-20 15:57:32,287 - INFO - [LOGIN] Yanis connecté
+2025-06-20 15:57:32,287 - INFO - [SYSTEM EVENT] Utilisateur connecté : Yanis @ ('10.0.108.141', 52955)
+2025-06-20 15:57:32,486 - INFO - [RECU] ('10.0.108.141', 52955) >> {"type":"users"}
+2025-06-20 15:57:32,486 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: users - Contenu: None
+2025-06-20 15:57:34,636 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"ok pd"}
+2025-06-20 15:57:34,637 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: ok pd
+2025-06-20 15:57:34,644 - INFO - [MSG] Yanis (#général) >> ok pd
+2025-06-20 15:57:50,407 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"tg"}
+2025-06-20 15:57:50,407 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: tg
+2025-06-20 15:57:50,413 - INFO - [MSG] Yanis (#général) >> tg
+2025-06-20 15:57:54,094 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"tg"}
+2025-06-20 15:57:54,094 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: tg
+2025-06-20 15:57:54,101 - INFO - [MSG] Yanis (#général) >> tg
+2025-06-20 15:57:54,312 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 15:57:57,418 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sdsd"}
+2025-06-20 15:57:57,418 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sdsd
+2025-06-20 15:57:57,427 - INFO - [MSG] Yanis (#général) >> sdsd
+2025-06-20 15:57:57,680 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sd"}
+2025-06-20 15:57:57,680 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sd
+2025-06-20 15:57:57,690 - INFO - [MSG] Yanis (#général) >> sd
+2025-06-20 15:57:57,885 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sd"}
+2025-06-20 15:57:57,885 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sd
+2025-06-20 15:57:57,895 - INFO - [MSG] Yanis (#général) >> sd
+2025-06-20 15:57:58,090 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sd"}
+2025-06-20 15:57:58,091 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sd
+2025-06-20 15:57:58,101 - INFO - [MSG] Yanis (#général) >> sd
+2025-06-20 15:57:58,295 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sd"}
+2025-06-20 15:57:58,296 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sd
+2025-06-20 15:57:58,307 - INFO - [MSG] Yanis (#général) >> sd
+2025-06-20 15:57:58,307 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sd"}
+2025-06-20 15:57:58,307 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sd
+2025-06-20 15:57:58,311 - INFO - [MSG] Yanis (#général) >> sd
+2025-06-20 15:57:58,499 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"s"}
+2025-06-20 15:57:58,499 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: s
+2025-06-20 15:57:58,505 - INFO - [MSG] Yanis (#général) >> s
+2025-06-20 15:57:58,703 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"ds"}
+2025-06-20 15:57:58,704 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: ds
+2025-06-20 15:57:58,710 - INFO - [MSG] Yanis (#général) >> ds
+2025-06-20 15:57:58,710 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"d"}
+2025-06-20 15:57:58,710 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: d
+2025-06-20 15:57:58,713 - INFO - [MSG] Yanis (#général) >> d
+2025-06-20 15:57:58,909 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"sd"}
+2025-06-20 15:57:58,909 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: sd
+2025-06-20 15:57:58,915 - INFO - [MSG] Yanis (#général) >> sd
+2025-06-20 15:57:58,915 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"s"}
+2025-06-20 15:57:58,915 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: s
+2025-06-20 15:57:58,919 - INFO - [MSG] Yanis (#général) >> s
+2025-06-20 15:57:59,116 - INFO - [RECU] ('10.0.108.141', 52955) >> {"subtype":"global","from":"Yanis","type":"message","content":"ds"}
+2025-06-20 15:57:59,116 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: message - Contenu: ds
+2025-06-20 15:57:59,122 - INFO - [MSG] Yanis (#général) >> ds
+2025-06-20 15:58:16,228 - INFO - [RECU] ('10.0.108.141', 52955) >> {"state":"away","type":"status","user":"Yanis"}
+2025-06-20 15:58:16,229 - INFO - Reçu de 'Yanis' @ ('10.0.108.141', 52955) - Type: status - Contenu: None
+2025-06-20 15:58:16,229 - INFO - [STATUS] Yanis est maintenant away
+2025-06-20 15:58:16,229 - INFO - [SYSTEM EVENT] Statut changé : Yanis est away
+2025-06-20 15:58:17,445 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 52955) (Yanis): [Errno 104] Connection reset by peer
+2025-06-20 15:58:17,446 - ERROR - Erreur avec 'Yanis' @ ('10.0.108.141', 52955) - [Errno 104] Connection reset by peer
+2025-06-20 15:58:17,446 - WARNING - [ERREUR SYSTEM] Impossible d'envoyer un message système : [Errno 32] Broken pipe
+2025-06-20 16:08:23,026 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 16:08:23,166 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 65157)
+2025-06-20 16:08:23,166 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.52', 65157)
+2025-06-20 16:08:31,147 - INFO - [RECU] ('10.0.108.52', 65157) >> {"subtype":"global","from":"alo","to":"global","type":"message","content":"yo","timestamp":"2025-06-20 16:08:31"}
+2025-06-20 16:08:31,147 - INFO - Reçu de 'invité' @ ('10.0.108.52', 65157) - Type: message - Contenu: yo
+2025-06-20 16:08:31,154 - INFO - [MSG] alo (#général) >> yo
+2025-06-20 16:08:31,154 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:08:31,154 - WARNING - [ERREUR] Problème avec ('10.0.108.52', 65157) (alo): [Errno 107] Transport endpoint is not connected
+2025-06-20 16:08:31,154 - ERROR - Erreur avec 'alo' @ ('10.0.108.52', 65157) - [Errno 107] Transport endpoint is not connected
+2025-06-20 16:08:31,154 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:08:58,287 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 65162)
+2025-06-20 16:08:58,287 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.52', 65162)
+2025-06-20 16:09:01,967 - INFO - [RECU] ('10.0.108.52', 65162) >> {"password":"ff","type":"register","username":"efefefe"}
+2025-06-20 16:09:01,968 - INFO - Reçu de 'invité' @ ('10.0.108.52', 65162) - Type: register - Contenu: None
+2025-06-20 16:09:01,977 - INFO - [REGISTER] Utilisateur 'efefefe' enregistré depuis 10.0.108.52
+2025-06-20 16:09:01,977 - INFO - [SYSTEM EVENT] Nouvel utilisateur enregistré: efefefe @ 10.0.108.52
+2025-06-20 16:09:01,986 - INFO - [RECU] ('10.0.108.52', 65162) >> {"password":"ff","type":"login","username":"efefefe"}
+2025-06-20 16:09:01,986 - INFO - Reçu de 'invité' @ ('10.0.108.52', 65162) - Type: login - Contenu: None
+2025-06-20 16:09:01,986 - INFO - [LOGIN-VALIDATION] Tentative login 'efefefe': réussie
+2025-06-20 16:09:01,987 - INFO - [SYSTEM] Message envoyé à ('10.0.108.52', 65162): Bienvenue efefefe sur ClassCord !
+2025-06-20 16:09:01,987 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.52', 65162): Bienvenue efefefe sur ClassCord !
+2025-06-20 16:09:01,987 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:09:01,987 - WARNING - [ERREUR] Problème avec ('10.0.108.52', 65162) (efefefe): [Errno 107] Transport endpoint is not connected
+2025-06-20 16:09:01,987 - ERROR - Erreur avec 'efefefe' @ ('10.0.108.52', 65162) - [Errno 107] Transport endpoint is not connected
+2025-06-20 16:09:01,987 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:10:41,639 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 16:20:32,304 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 16:26:41,734 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 16:28:52,721 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 54838)
+2025-06-20 16:28:52,722 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 54838)
+2025-06-20 16:28:52,814 - INFO - [RECU] ('10.0.108.141', 54838) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 16:28:52,815 - INFO - Reçu de 'invité' @ ('10.0.108.141', 54838) - Type: login - Contenu: None
+2025-06-20 16:28:52,815 - INFO - [LOGIN-VALIDATION] Tentative login 'Yanis': réussie
+2025-06-20 16:28:52,817 - INFO - [SYSTEM] Message envoyé à ('10.0.108.141', 54838): Bienvenue Yanis sur ClassCord !
+2025-06-20 16:28:52,817 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.141', 54838): Bienvenue Yanis sur ClassCord !
+2025-06-20 16:28:52,817 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:28:52,817 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 54838) (Yanis): [Errno 107] Transport endpoint is not connected
+2025-06-20 16:28:52,817 - ERROR - Erreur avec 'Yanis' @ ('10.0.108.141', 54838) - [Errno 107] Transport endpoint is not connected
+2025-06-20 16:28:52,817 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:40:37,816 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 55489)
+2025-06-20 16:40:37,817 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 55489)
+2025-06-20 16:40:37,817 - INFO - [RECU] ('10.0.108.141', 55489) >> {"password":"1234","type":"login","username":"Yanis"}
+2025-06-20 16:40:37,817 - INFO - Reçu de 'invité' @ ('10.0.108.141', 55489) - Type: login - Contenu: None
+2025-06-20 16:40:37,818 - INFO - [LOGIN-VALIDATION] Tentative login 'Yanis': réussie
+2025-06-20 16:40:37,821 - INFO - [SYSTEM] Message envoyé à ('10.0.108.141', 55489): Bienvenue Yanis sur ClassCord !
+2025-06-20 16:40:37,821 - INFO - [SYSTEM EVENT] Message système envoyé à ('10.0.108.141', 55489): Bienvenue Yanis sur ClassCord !
+2025-06-20 16:40:37,821 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:40:37,821 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 55489) (Yanis): [Errno 107] Transport endpoint is not connected
+2025-06-20 16:40:37,821 - ERROR - Erreur avec 'Yanis' @ ('10.0.108.141', 55489) - [Errno 107] Transport endpoint is not connected
+2025-06-20 16:40:37,821 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:40:39,709 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 16:42:45,110 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.141', 55586)
+2025-06-20 16:42:45,111 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.141', 55586)
+2025-06-20 16:42:45,299 - INFO - [RECU] ('10.0.108.141', 55586) >> {"type":"users"}
+2025-06-20 16:42:45,299 - INFO - Reçu de 'invité' @ ('10.0.108.141', 55586) - Type: users - Contenu: None
+2025-06-20 16:42:47,244 - INFO - [RECU] ('10.0.108.141', 55586) >> {"subtype":"global","from":"Invité2750","type":"message","content":"oe"}
+2025-06-20 16:42:47,245 - INFO - Reçu de 'invité' @ ('10.0.108.141', 55586) - Type: message - Contenu: oe
+2025-06-20 16:42:47,253 - INFO - [MSG] Invité2750 (#général) >> oe
+2025-06-20 16:42:47,253 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:42:47,253 - WARNING - [ERREUR] Problème avec ('10.0.108.141', 55586) (Invité2750): [Errno 107] Transport endpoint is not connected
+2025-06-20 16:42:47,253 - ERROR - Erreur avec 'Invité2750' @ ('10.0.108.141', 55586) - [Errno 107] Transport endpoint is not connected
+2025-06-20 16:42:47,253 - WARNING - [ERREUR] Envoi échoué à Yanis : [Errno 32] Broken pipe
+2025-06-20 16:45:43,270 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 17:09:34,781 - INFO - === Démarrage du serveur Classcord ===
+2025-06-20 17:09:34,810 - INFO - [DEMARRAGE] Serveur en écoute sur 0.0.0.0:12345
+2025-06-20 17:09:34,810 - INFO - [SYSTEM EVENT] Serveur démarré sur 0.0.0.0:12345
+2025-06-20 17:11:42,087 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 49751)
+2025-06-20 17:11:42,087 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.52', 49751)
+2025-06-20 17:12:07,017 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:07,017 - INFO - Reçu de 'invité' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:11,116 - INFO - [RECU] ('10.0.108.52', 49751) >> {"subtype":"global","from":"AAA","to":"global","type":"message","content":"aaaaa","timestamp":"2025-06-20 17:12:11"}
+2025-06-20 17:12:11,117 - INFO - Reçu de 'invité' @ ('10.0.108.52', 49751) - Type: message - Contenu: aaaaa
+2025-06-20 17:12:11,148 - INFO - [MSG] AAA (#général) >> aaaaa
+2025-06-20 17:12:11,961 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:11,961 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:16,950 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:16,950 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:21,966 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:21,967 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:26,984 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:26,985 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:32,003 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:32,007 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:32,010 - INFO - [CONNEXION] Nouvelle connexion depuis ('10.0.108.52', 49756)
+2025-06-20 17:12:32,010 - INFO - [SYSTEM EVENT] Connexion client depuis ('10.0.108.52', 49756)
+2025-06-20 17:12:37,018 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:37,020 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:41,009 - INFO - [RECU] ('10.0.108.52', 49756) >> {"subtype":"global","from":">BBB","to":"global","type":"message","content":"sssss","timestamp":"2025-06-20 17:12:40"}
+2025-06-20 17:12:41,009 - INFO - Reçu de 'invité' @ ('10.0.108.52', 49756) - Type: message - Contenu: sssss
+2025-06-20 17:12:41,052 - INFO - [MSG] >BBB (#général) >> sssss
+2025-06-20 17:12:41,054 - INFO - [ENVOI] AAA sur #général : {'subtype': 'global', 'from': '>BBB', 'to': 'global', 'type': 'message', 'content': 'sssss', 'timestamp': '2025-06-20T17:12:41.010165', 'channel': '#général'}
+2025-06-20 17:12:41,523 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:12:41,524 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:12:42,034 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:42,034 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:46,545 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:12:46,545 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:12:47,055 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:47,056 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:49,586 - INFO - [RECU] ('10.0.108.52', 49751) >> {"subtype":"global","from":"AAA","to":"global","type":"message","content":"sss","timestamp":"2025-06-20 17:12:49"}
+2025-06-20 17:12:49,586 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: message - Contenu: sss
+2025-06-20 17:12:49,606 - INFO - [MSG] AAA (#général) >> sss
+2025-06-20 17:12:49,620 - INFO - [ENVOI] >BBB sur #général : {'subtype': 'global', 'from': 'AAA', 'to': 'global', 'type': 'message', 'content': 'sss', 'timestamp': '2025-06-20T17:12:49.587152', 'channel': '#général'}
+2025-06-20 17:12:51,560 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:12:51,561 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:12:52,073 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:52,073 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:12:56,575 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:12:56,575 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:12:56,984 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:12:56,984 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:01,592 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:01,593 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:02,004 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:02,004 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:06,610 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:06,611 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:07,019 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:07,019 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:11,524 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:11,525 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:11,994 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:11,995 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:16,542 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:16,543 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:17,055 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:17,058 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:21,562 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:21,562 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:22,069 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:22,071 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:26,574 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:26,574 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:27,336 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:27,336 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:31,569 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:31,569 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:32,024 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:32,024 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:36,610 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:36,610 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:37,125 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:37,125 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:41,626 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:41,626 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:42,139 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:42,139 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:46,644 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:46,644 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:47,156 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:47,156 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:51,676 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:51,676 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:52,076 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:52,077 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:13:56,595 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:13:56,595 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:13:57,104 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:13:57,105 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:14:01,618 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:14:01,618 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:14:02,128 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:14:02,128 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:14:06,611 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:14:06,611 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:14:07,117 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:14:07,117 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:14:11,666 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:14:11,666 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:14:12,176 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:14:12,176 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:14:16,635 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:14:16,635 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:14:17,200 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:14:17,200 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:14:21,722 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:14:21,723 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:14:22,222 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:14:22,222 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:14:26,736 - INFO - [RECU] ('10.0.108.52', 49756) >> {"type":"users"}
+2025-06-20 17:14:26,736 - INFO - Reçu de '>BBB' @ ('10.0.108.52', 49756) - Type: users - Contenu: None
+2025-06-20 17:14:27,178 - INFO - [RECU] ('10.0.108.52', 49751) >> {"type":"users"}
+2025-06-20 17:14:27,178 - INFO - Reçu de 'AAA' @ ('10.0.108.52', 49751) - Type: users - Contenu: None
+2025-06-20 17:21:56,946 - INFO - === Démarrage du serveur Classcord ===
